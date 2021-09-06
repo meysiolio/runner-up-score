@@ -8,6 +8,6 @@ if __name__ == '__main__':
     max_index = [i for i,j in enumerate(L) if j == maximum]
     
     for k in max_index:
-        del L[k]
+        del L[0]
 
     print(max(L))
